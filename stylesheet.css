@@ -2,3 +2,9 @@ h1 {
   color: navy;
   margin-left: 20px;
 }
+
+body {
+ #grad {
+  background-image: linear-gradient(to bottom, red, yellow);
+ }
+}
