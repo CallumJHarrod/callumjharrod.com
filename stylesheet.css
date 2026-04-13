@@ -1,5 +1,7 @@
-grad {
-  background-image: linear-gradient(to right, red , yellow);
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
 }
 
 h1 {
