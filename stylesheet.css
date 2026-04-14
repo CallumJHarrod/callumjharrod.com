@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  color: slategray;
-  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-family: Gill Sans, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
