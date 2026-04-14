@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #DED7DB;
 }
 
 h1 {
@@ -31,7 +31,7 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: #292829;
   color: white;
   text-align: center;
 }
