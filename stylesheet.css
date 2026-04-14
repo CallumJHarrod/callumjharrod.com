@@ -1,5 +1,5 @@
 body {
-  background-color: azure;
+  background-color: white;
 }
 
 h1 {
@@ -31,8 +31,8 @@ p {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: lightsalmon;
-  color: white;
+  background-color: black;
+  text-color: white;
   text-align: center;
 }
 
