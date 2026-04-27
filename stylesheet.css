@@ -1,6 +1,7 @@
 @font-face {
   font-family: "PixelFont";
-  src: url ("./
+  src: url ("./PixelEmulator-xq08.ttf") format("ttf");
+}
 
 body {
   background-color: #6a8439;
@@ -9,7 +10,7 @@ body {
 h1 {
   color: #354715;
   font-size: 64px;
-  font-family: Impact, fantasy;
+  font-family: PixelFont;
   display: flex;
   justify-content: center;
   align-items: center;
