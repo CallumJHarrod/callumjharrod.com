@@ -1,16 +1,20 @@
-@font-face {
-  font-family: "PixelFont";
-  src: url ("./PixelEmulator-xq08.ttf") format("ttf");
-}
-
 body {
-  background-color: #6a8439;
+  background-color: #DED7DB;
 }
 
 h1 {
-  color: #354715;
+  color: black;
   font-size: 64px;
-  font-family: PixelFont;
+  font-family: Rockwell, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+h2 {
+  color: black;
+  font-family: Monaco, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +22,7 @@ h1 {
 
 h3 {
   color: black;
-  font-family: Gill Sans, sans-serif;
+  font-family: Monaco, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,4 +46,43 @@ p {
   text-align: center;
 }
 
-  
+/* NAVBAR STYLING BEGINS */
+
+.navbar {
+  width: 75%; /*sets the total width of the navbar and elements within to a percentage of the screen size */
+  position: relative;
+  left: 12.5%; /*adds 12.5% padding to left side of navbar - change percentage based on (total width - navbar width) /2 */
+  background-color: #DED7DB;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  width: 33.33%; /*sets width of each link based on percentage of navbar width */
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.navbar a:hover {
+  background-color: #D3D3D3; /*sets color or link when hovered over */
+}
+
+.navbar a.active {
+  background-color: #D3D3D3; /*sets color of currently active link */
+}
+
+@media screen and (max-width: 500px) { /*sets conditions for navbar links when screen size is less than 500px - in this case, sets links to vertical stack rather than horizontal*/
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* NAVBAR STYLING ENDS */
